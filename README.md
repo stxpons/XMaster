@@ -1,14 +1,14 @@
 # XMaster
 XMaster, a tool to operate multi-servers at the same time.
 
-########################################################## XMaster ##########################################################
+######################################################### XMaster #########################################################
 /** Author  : stxpons@gmail.com **/
 /** Date    : 2016-03-10        **/
 /** Version : 1.0               **/
 
 usage: XMaster -a <action> [-f <file>] [-h] [-H <host>] [-k] [-lf <localFile>] [-p <password>] [-P <port>] [-rf <remoteFile>]
        [-s <serversFile>] [-sf <shellsFile>] [-u <user>]
- ----------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------
  -a,--action <action>            The action to be execute: shell, sftp, upload, download
  -f,--files <file>               The upload or download files, line format:local_or_remote_file | local_or_remote_file.upload
                                  using default uploadfiles.txt and files.txt; download using default downloadfiles.txt and
@@ -24,10 +24,10 @@ usage: XMaster -a <action> [-f <file>] [-h] [-H <host>] [-k] [-lf <localFile>] [
                                  servers.txt
  -sf,--shellfile <shellsFile>    The shell file to be executed.
  -u,--user <user>                User name
- ----------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------
  console command:
  __help                          print help
  __quit                          exit
  __exit                          exit
  __ctrl[a-z|A-Z]                 send CTRL+[A-Z]
-########################################################## XMaster ##########################################################
+######################################################### XMaster #########################################################
